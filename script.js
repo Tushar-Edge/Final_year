@@ -50,3 +50,27 @@ function filter() {
     }
   }
   
+
+  // const filterButton = document.getElementById("filter-button");
+// filterButton.addEventListener("click", () => {
+//   const dateFilter = document.getElementById("date-filter").value;
+//   const yearFilter = document.getElementById("year-filter").value;
+//   const locationFilter = document.getElementById("location-filter").value;
+
+//   const rows = document.querySelectorAll("tr");
+//   rows.forEach((row) => {
+//     const date = row.querySelector("td:nth-child(5)").textContent;
+//     const year = date.split("-")[0];
+//     const location = row.querySelector("td:nth-child(4)").textContent;
+
+//     if (
+//       (dateFilter && date !== dateFilter) ||
+//       (yearFilter && year !== yearFilter) ||
+//       (locationFilter && !location.toLowerCase().includes(locationFilter.toLowerCase()))
+//     ) {
+//       row.classList.add("hide");
+//     } else {
+//       row.classList.remove("hide");
+//     }
+//   });
+// });
