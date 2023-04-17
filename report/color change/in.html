@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Table with Red Rows</title>
+    <script src="sci.js"></script>
+	<style>
+		table {
+			border-collapse: collapse;
+			width: 100%;
+		}
+
+		th, td {
+			text-align: left;
+			padding: 8px;
+		}
+
+		th {
+			background-color: #ddd;
+		}
+
+		tr.red-row {
+			background-color: #f00;
+			color: #fff;
+		}
+	</style>
+</head>
+<body>
+	<h1>Table with Red Rows</h1>
+	<table>
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Age</th>
+				<th>Flag</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>John Doe</td>
+				<td>35</td>
+				<td>0</td>
+			</tr>
+			<tr class="red-row">
+				<td>Jane Smith</td>
+				<td>28</td>
+				<td>1</td>
+			</tr>
+			<tr>
+				<td>Bob Johnson</td>
+				<td>42</td>
+				<td>0</td>
+			</tr>
+			<tr class="red-row">
+				<td>Sarah Lee</td>
+				<td>19</td>
+				<td>1</td>
+			</tr>
+
+            <tr>
+				<td>Sarah Lee</td>
+				<td>19</td>
+				<td>1</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>

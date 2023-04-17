@@ -1,0 +1,20 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #dddddd;
+  }
+  
+  input {
+    margin-left: 8px;
+    margin-right: 16px;
+  }
+  

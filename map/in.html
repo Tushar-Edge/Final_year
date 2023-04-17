@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pop-up Window with Images</title>
+	<link rel="stylesheet" type="text/css" href="sty.css">
+    <style>
+        .bo{
+
+            background-image: url(bgg.jpg);
+            background-repeat: no-repeat;
+    background-size: cover;
+        }
+    </style>
+</head>
+<body class="bo">
+	<h1>Pop-up Window with Images</h1>
+	<button onclick="showPopup()">Show Images</button>
+
+	<div id="popup-container">
+		<div id="popup">
+			<span class="close" onclick="closePopup()">&times;</span>
+			<div id="images-container">
+				<img src="car.jpg" alt="Image 1">
+				
+			</div>
+		</div>
+	</div>
+
+	<div id="background"></div>
+
+	<script src="sci.js"></script>
+</body>
+</html>
